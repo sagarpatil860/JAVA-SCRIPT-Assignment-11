@@ -1,0 +1,27 @@
+body{
+    background-image:url("BGRI.png");
+
+}
+
+/*using display block
+/*.colordiv{
+    background-color: rgba(30, 143, 255, 0.275);
+    border: 2px solid black;
+    display: block;
+    margin-left: 20%;
+    margin-top: 10%;
+    width: 40%;
+    padding: 60px;
+}*/
+.colordiv{
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+/*text-align: center;*/
+/*min-height: auto; */
+background-color: rgba(0, 128, 126, 0.481);
+align-items: center;
+width: auto;
+margin: 10%;
+}
